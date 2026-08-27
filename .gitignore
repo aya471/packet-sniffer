@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Capture logs / output
+*.log
+*.pcap
+
+# OS
+.DS_Store

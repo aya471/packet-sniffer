@@ -1,0 +1,34 @@
+Starting capture... (Ctrl+C to stop)
+
+[11:39:16] [UDP] 192.168.100.74:47440 -> 192.168.100.1:53  [DNS Query: example.duckdns.org.]
+[11:39:16] [TCP] 192.168.100.74:39446 -> 41.110.92.160:80  [flags=S]
+[11:39:16] [TCP] 41.110.92.160:80 -> 192.168.100.74:39446  [flags=SA]
+[11:39:16] [TCP] 192.168.100.74:39446 -> 41.110.92.160:80  [flags=A]
+[11:39:16] [TCP] 192.168.100.74:39446 -> 41.110.92.160:80  [flags=PA]  | payload: GET /admin/api/auth/providers HTTP/1.1..
+[11:39:16] [TCP] 41.110.92.160:80 -> 192.168.100.74:39446  [flags=PA]  | payload: HTTP/1.1 200 OK..Server: openresty..Date
+[11:39:22] [UDP] 192.168.100.74:42609 -> 192.168.100.1:53  [DNS Query: pool.ntp.org.]
+
+=== Capture summary ===
+TCP: 39 packet(s)
+UDP: 67 packet(s)
+ICMP: 0 packet(s)
+ARP: 21 packet(s)
+Total: 127 packet(s)
+
+=== Top 5 most active IPs ===
+192.168.100.74: 89 packet(s)
+41.110.92.160: 12 packet(s)
+103.195.103.66: 9 packet(s)
+79.127.159.187: 6 packet(s)
+84.17.53.155: 5 packet(s)
+
+=== Top 5 queried DNS domains ===
+example.duckdns.org.: 2 request(s)
+pool.ntp.org.: 2 request(s)
+
+=== Top 5 destination ports ===
+port 9993: 21 packet(s)
+port 443: 15 packet(s)
+port 80: 10 packet(s)
+port 53: 4 packet(s)
+port 123: 2 packet(s)
