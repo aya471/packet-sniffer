@@ -135,4 +135,4 @@ One practical takeaway from this project: plaintext protocols (HTTP, unencrypted
 
 ## Author
 
-Aya — Final year software/systems engineering project (PFE)
+Aya — computer and information systems security student
